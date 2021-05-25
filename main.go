@@ -15,7 +15,7 @@ func main() {
 
 		f := fib()
 
-		res := &response{Message: "EKS Demo May 2021"}
+		res := &response{Message: "EKS Demo"}
 
 		for _, e := range os.Environ() {
 			pair := strings.Split(e, "=")
